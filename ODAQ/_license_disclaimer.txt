@@ -1,0 +1,19 @@
+The audio files contained in the ODAQ package are distributed with different licenses, i.e., CC BY, CC BY-NC, and CC0.
+For the details please refer to _detailed_license.csv, which details the license for each original unprocessed file (contained in ./ODAQ_unprocessed).
+
+For each processed file in ./ODAQ_training, ./ODAQ_listening_test, and ./ODAQ_DE_raw_outputs the same license applies as for the original unprocessed file from which the processed file is derived.
+
+The processing methods applied to the original unprocessed files are described in our paper mentioned below.
+
+All other files not containing audio (e.g., the xml files containing the scores resulting from the listening test) are distributed under CC BY:
+https://creativecommons.org/licenses/by/4.0/
+
+Authors of the ODAQ package are:
+Fraunhofer Institute for Integrated Circuits IIS, Erlangen, Germany
+and
+Netflix, Inc., Los Gatos, USA
+
+If you find the package useful, please cite our paper:
+Matteo Torcoli, Chih-Wei Wu, Sascha Dick, Phillip A. Williams, Mhd Modar Halimeh, William Wolcott, Emanuël A. P. Habets,
+"ODAQ: Open Dataset of Audio Quality,"
+IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Seoul, Korea, April 2024.

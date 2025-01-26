@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<MUSHRA>
+  <info startTime="2023-08-17T14:04:30.767-07:00" stopTime="2023-08-17T14:24:34.803-07:00"
+        subjectName="USLA07" testName="ODAQ" stimuliDirectory="/final_full_test"
+        trialsPerSession="10" testStatus="complete"/>
+  <trials>
+    <trial trialName="TM_AmateurOnPurpose" trialSeconds="195.0" referencePlays="17">
+      <testFile fileName="LP35.wav" plays="0" score="7.0" comment="worst"/>
+      <testFile fileName="TM9k.wav" plays="0" score="59.0"/>
+      <testFile fileName="TM5k.wav" plays="0" score="39.0" comment="high distortion when it gets busy"/>
+      <testFile fileName="TM7k.wav" plays="0" score="52.0" comment="similar to 5, but less distortion"/>
+      <testFile fileName="TM3k.wav" plays="0" score="31.0" comment="lots of high crunch and distortion"/>
+      <testFile fileName="reference.wav" plays="0" score="100.0" comment="reference"/>
+      <testFile fileName="LP70.wav" plays="0" score="14.0" comment="next worst"/>
+      <testFile fileName="TM10.5k.wav" plays="0" score="89.0" comment="very good, could be reference too?"/>
+    </trial>
+    <trial trialName="DE_Meridian_remix1_LD3" trialSeconds="165.0" referencePlays="30">
+      <testFile fileName="Cocktail_mid.wav" plays="0" score="49.0"/>
+      <testFile fileName="reference.wav" plays="0" score="100.0" comment="reference"/>
+      <testFile fileName="DeepFilterNet2_mid.wav" plays="0" score="40.0"/>
+      <testFile fileName="TFC_TDF_U_Net_mid.wav" plays="0" score="42.0"/>
+      <testFile fileName="LP35.wav" plays="0" score="5.0" comment="terrible"/>
+      <testFile fileName="OpenUnmix_mid.wav" plays="0" score="54.0" comment="weird background pumping"/>
+      <testFile fileName="LP70.wav" plays="0" score="19.0" comment="terrible too"/>
+      <testFile fileName="PSM_quantize_mask.wav" plays="0" score="91.0"/>
+    </trial>
+    <trial trialName="LP_11_guitar" trialSeconds="129.0" referencePlays="23">
+      <testFile fileName="LP50.wav" plays="0" score="15.0"/>
+      <testFile fileName="reference.wav" plays="0" score="100.0" comment="reference"/>
+      <testFile fileName="LP35.wav" plays="0" score="5.0" comment="no highs"/>
+      <testFile fileName="LP70.wav" plays="0" score="20.0"/>
+      <testFile fileName="LP150.wav" plays="0" score="79.0"/>
+      <testFile fileName="LP120.wav" plays="0" score="57.0"/>
+      <testFile fileName="LP105.wav" plays="0" score="50.0"/>
+      <testFile fileName="LP90.wav" plays="0" score="39.0"/>
+    </trial>
+    <trial trialName="TM_CreatureFromTheBlackjackTable" trialSeconds="100.0"
+           referencePlays="20">
+      <testFile fileName="TM3k.wav" plays="0" score="30.0" comment="high distortion"/>
+      <testFile fileName="reference.wav" plays="0" score="100.0" comment="reference"/>
+      <testFile fileName="TM9k.wav" plays="0" score="75.0"/>
+      <testFile fileName="TM7k.wav" plays="0" score="53.0" comment="some crunchy"/>
+      <testFile fileName="TM5k.wav" plays="0" score="43.0"/>
+      <testFile fileName="TM10.5k.wav" plays="0" score="50.0"/>
+      <testFile fileName="LP70.wav" plays="0" score="10.0"/>
+      <testFile fileName="LP35.wav" plays="0" score="5.0" comment="worst"/>
+    </trial>
+    <trial trialName="PE_27_castanets" trialSeconds="106.0" referencePlays="8">
+      <testFile fileName="reference.wav" plays="0" score="100.0" comment="reference"/>
+      <testFile fileName="PE_2048_MS_NMR16.wav" plays="0" score="42.0"/>
+      <testFile fileName="LP35.wav" plays="0" score="7.0"/>
+      <testFile fileName="PE_2048_MS_NMR10.wav" plays="0" score="33.0"/>
+      <testFile fileName="PE_4096_MS_NMR10.wav" plays="0" score="21.0"/>
+      <testFile fileName="PE_1024_MS_NMR16.wav" plays="0" score="46.0"/>
+      <testFile fileName="LP70.wav" plays="0" score="15.0"/>
+      <testFile fileName="PE_1024_MS_NMR10.wav" plays="0" score="63.0"/>
+    </trial>
+    <trial trialName="UN_20c_accordion" trialSeconds="129.0" referencePlays="8">
+      <testFile fileName="reference.wav" plays="0" score="100.0" comment="reference"/>
+      <testFile fileName="UN7k.wav" plays="0" score="51.0" comment="strange buzzing distortion"/>
+      <testFile fileName="LP35.wav" plays="0" score="10.0" comment="no highs"/>
+      <testFile fileName="UN9k.wav" plays="0" score="88.0" comment="slight buzz during louder parts"/>
+      <testFile fileName="UN5k.wav" plays="0" score="39.0" comment="buzzy"/>
+      <testFile fileName="LP70.wav" plays="0" score="29.0" comment="no highs"/>
+      <testFile fileName="UN10.5k.wav" plays="0" score="63.0"/>
+      <testFile fileName="UN3k.wav" plays="0" score="20.0" comment="buzzy, weird"/>
+    </trial>
+    <trial trialName="DE_CosmosLandromat_remix3_LD3" trialSeconds="100.0"
+           referencePlays="3">
+      <testFile fileName="DeepFilterNet2_mid.wav" plays="0" score="74.0" comment="slight crunch at high volumes and weird background pumping"/>
+      <testFile fileName="LP70.wav" plays="0" score="27.0"/>
+      <testFile fileName="reference.wav" plays="0" score="100.0" comment="reference"/>
+      <testFile fileName="PSM_quantize_mask.wav" plays="0" score="87.0" comment="slight crunch/buzz at high volumes"/>
+      <testFile fileName="TFC_TDF_U_Net_mid.wav" plays="0" score="50.0" comment="weird background pumping"/>
+      <testFile fileName="LP35.wav" plays="0" score="10.0" comment="no highs"/>
+      <testFile fileName="Cocktail_mid.wav" plays="0" score="63.0" comment="crunchy"/>
+      <testFile fileName="OpenUnmix_mid.wav" plays="0" score="55.0" comment="weird background pumping"/>
+    </trial>
+    <trial trialName="PE_AmateurOnPurpose" trialSeconds="124.0" referencePlays="15">
+      <testFile fileName="PE_1024_MS_NMR10.wav" plays="0" score="94.0" comment="could also be reference"/>
+      <testFile fileName="PE_2048_MS_NMR10.wav" plays="0" score="72.0"/>
+      <testFile fileName="LP35.wav" plays="0" score="8.0"/>
+      <testFile fileName="PE_2048_MS_NMR16.wav" plays="0" score="67.0"/>
+      <testFile fileName="reference.wav" plays="0" score="100.0" comment="reference"/>
+      <testFile fileName="LP70.wav" plays="0" score="14.0"/>
+      <testFile fileName="PE_1024_MS_NMR16.wav" plays="0" score="67.0"/>
+      <testFile fileName="PE_4096_MS_NMR10.wav" plays="0" score="52.0"/>
+    </trial>
+    <trial trialName="SH_13_glockenspiel" trialSeconds="64.0" referencePlays="2">
+      <testFile fileName="SH10_MS.wav" plays="0" score="28.0"/>
+      <testFile fileName="LP70.wav" plays="0" score="13.0"/>
+      <testFile fileName="SH70_MS.wav" plays="0" score="1.0" comment="terrible artifacts"/>
+      <testFile fileName="SH20_MS.wav" plays="0" score="15.0"/>
+      <testFile fileName="SH50_MS.wav" plays="0" score="6.0"/>
+      <testFile fileName="reference.wav" plays="0" score="100.0" comment="reference"/>
+      <testFile fileName="SH30_MS.wav" plays="0" score="17.0"/>
+      <testFile fileName="LP35.wav" plays="0" score="7.0"/>
+    </trial>
+    <trial trialName="DE_SitaSings_remix1_LD0" trialSeconds="130.0" referencePlays="10">
+      <testFile fileName="DeepFilterNet2_mid.wav" plays="0" score="40.0" comment="high compression hurting intelligibility"/>
+      <testFile fileName="PSM_quantize_mask.wav" plays="0" score="73.0"/>
+      <testFile fileName="Cocktail_mid.wav" plays="0" score="38.0" comment="background noise pumping"/>
+      <testFile fileName="reference.wav" plays="0" score="100.0" comment="reference"/>
+      <testFile fileName="LP35.wav" plays="0" score="9.0"/>
+      <testFile fileName="TFC_TDF_U_Net_mid.wav" plays="0" score="30.0" comment="highs distorted"/>
+      <testFile fileName="OpenUnmix_mid.wav" plays="0" score="6.0" comment="strange artifacts"/>
+      <testFile fileName="LP70.wav" plays="0" score="49.0" comment="ok in comparison, no highs, but better because its consistently bad"/>
+    </trial>
+    <trial trialName="LP_AmateurOnPurpose" trialSeconds="1309.0" referencePlays="13">
+      <testFile fileName="LP120.wav" plays="0" score="80.0" comment="not bad, but could be some crunch in highs"/>
+      <testFile fileName="LP70.wav" plays="0" score="24.0" comment="skype-like"/>
+      <testFile fileName="LP150.wav" plays="0" score="50.0" comment="ok, but some high end crunch"/>
+      <testFile fileName="LP35.wav" plays="0" score="7.0" comment="worst, no highs"/>
+      <testFile fileName="LP90.wav" plays="0" score="31.0" comment="no highs, with some crunch and distortion"/>
+      <testFile fileName="reference.wav" plays="0" score="100.0" comment="reference"/>
+      <testFile fileName="LP50.wav" plays="0" score="19.0" comment="next worst"/>
+      <testFile fileName="LP105.wav" plays="0" score="37.0" comment="less highs, but no crunch or distortion"/>
+    </trial>
+    <trial trialName="SH_AmateurOnPurpose" trialSeconds="128.0" referencePlays="5">
+      <testFile fileName="SH50_MS.wav" plays="0" score="7.0" comment="tons of artifacts"/>
+      <testFile fileName="LP35.wav" plays="0" score="6.0" comment="telephonic, but consistent"/>
+      <testFile fileName="SH30_MS.wav" plays="0" score="30.0" comment="tons of high artifacts, no good"/>
+      <testFile fileName="SH10_MS.wav" plays="0" score="51.0" comment="some artifacts when it gets more busy towards the end"/>
+      <testFile fileName="LP70.wav" plays="0" score="30.0" comment="no highs, but better than others because it is consistent sounding"/>
+      <testFile fileName="SH70_MS.wav" plays="0" score="7.0" comment="tons of high artifacts"/>
+      <testFile fileName="SH20_MS.wav" plays="0" score="43.0" comment="still some high artifacts"/>
+      <testFile fileName="reference.wav" plays="0" score="100.0" comment="reference"/>
+    </trial>
+    <trial trialName="DE_CosmosLandromat_remix1_LD6" trialSeconds="149.0"
+           referencePlays="6">
+      <testFile fileName="DeepFilterNet2_mid.wav" plays="0" score="50.0" comment="no high end distortion, but poorer fidelity overall"/>
+      <testFile fileName="LP35.wav" plays="0" score="6.0" comment="no highs at all, but consistent"/>
+      <testFile fileName="LP70.wav" plays="0" score="35.0" comment="telephonic but consistent, no artifacts"/>
+      <testFile fileName="TFC_TDF_U_Net_mid.wav" plays="0" score="13.0" comment="background pumping, high end distortion"/>
+      <testFile fileName="Cocktail_mid.wav" plays="0" score="34.0" comment="losing a lot of high end and consonants"/>
+      <testFile fileName="PSM_quantize_mask.wav" plays="0" score="42.0" comment="ok, but high end modulation"/>
+      <testFile fileName="OpenUnmix_mid.wav" plays="0" score="14.0" comment="background pumping and high end distortion"/>
+      <testFile fileName="reference.wav" plays="0" score="100.0" comment="reference"/>
+    </trial>
+    <trial trialName="PE_CreatureFromTheBlackjackTable" trialSeconds="173.0"
+           referencePlays="13">
+      <testFile fileName="PE_2048_MS_NMR16.wav" plays="0" score="71.0" comment="decent but better than 2, bit more definition"/>
+      <testFile fileName="PE_2048_MS_NMR10.wav" plays="0" score="65.0" comment="decent too"/>
+      <testFile fileName="PE_4096_MS_NMR10.wav" plays="0" score="26.0" comment="lots of high end distortion and hiss"/>
+      <testFile fileName="reference.wav" plays="0" score="100.0" comment="reference"/>
+      <testFile fileName="PE_1024_MS_NMR16.wav" plays="0" score="81.0" comment="pretty good"/>
+      <testFile fileName="LP70.wav" plays="0" score="15.0" comment="no highs, but consistent"/>
+      <testFile fileName="PE_1024_MS_NMR10.wav" plays="0" score="51.0" comment="distorted highs, but not noticable because of content"/>
+      <testFile fileName="LP35.wav" plays="0" score="6.0" comment="worst, telephonic"/>
+    </trial>
+    <trial trialName="UN_CreatureFromTheBlackjackTable" trialSeconds="123.0"
+           referencePlays="23">
+      <testFile fileName="LP35.wav" plays="0" score="5.0" comment="bad"/>
+      <testFile fileName="reference.wav" plays="0" score="100.0" comment="reference"/>
+      <testFile fileName="UN5k.wav" plays="0" score="80.0" comment="pretty good"/>
+      <testFile fileName="UN3k.wav" plays="0" score="68.0" comment="little high end crunch, but pretty good"/>
+      <testFile fileName="UN7k.wav" plays="0" score="86.0" comment="very good, could be reference"/>
+      <testFile fileName="UN10.5k.wav" plays="0" score="85.0" comment="also very good"/>
+      <testFile fileName="LP70.wav" plays="0" score="13.0" comment="not good"/>
+      <testFile fileName="UN9k.wav" plays="0" score="84.0" comment="pretty good"/>
+    </trial>
+    <trial trialName="PE_39_clapping" trialSeconds="87.0" referencePlays="1">
+      <testFile fileName="PE_1024_MS_NMR16.wav" plays="0" score="41.0" comment="loose highs"/>
+      <testFile fileName="PE_4096_MS_NMR10.wav" plays="0" score="2.0" comment="terrible, lost all definition"/>
+      <testFile fileName="PE_1024_MS_NMR10.wav" plays="0" score="50.0" comment="less loose highs"/>
+      <testFile fileName="LP35.wav" plays="0" score="11.0" comment="no highs"/>
+      <testFile fileName="PE_2048_MS_NMR16.wav" plays="0" score="32.0" comment="more loose highs"/>
+      <testFile fileName="LP70.wav" plays="0" score="20.0" comment="no highs, but tighter"/>
+      <testFile fileName="PE_2048_MS_NMR10.wav" plays="0" score="17.0" comment="modulated and distorted highs"/>
+      <testFile fileName="reference.wav" plays="0" score="100.0" comment="reference"/>
+    </trial>
+    <trial trialName="UN_AmateurOnPurpose" trialSeconds="162.0" referencePlays="14">
+      <testFile fileName="UN10.5k.wav" plays="0" score="100.0" comment="reference"/>
+      <testFile fileName="UN3k.wav" plays="0" score="61.0" comment="can hear a bit garbled when busy"/>
+      <testFile fileName="LP35.wav" plays="0" score="10.0" comment="no highs, like 1997 napster"/>
+      <testFile fileName="LP70.wav" plays="0" score="14.0" comment="no highs"/>
+      <testFile fileName="reference.wav" plays="0" score="69.0" comment="better than 2, but still a bit garbled in highs"/>
+      <testFile fileName="UN5k.wav" plays="0" score="51.0" comment="high/loose distortion a little"/>
+      <testFile fileName="UN9k.wav" plays="0" score="87.0" comment="pretty good, could be reference, but a subtle garble in some spots"/>
+      <testFile fileName="UN7k.wav" plays="0" score="63.0" comment="ok but some garbley spots"/>
+    </trial>
+    <trial trialName="TM_01b_trumpet" trialSeconds="101.0" referencePlays="11">
+      <testFile fileName="LP35.wav" plays="0" score="14.0" comment="no highs"/>
+      <testFile fileName="TM3k.wav" plays="0" score="38.0" comment="distorted hights"/>
+      <testFile fileName="TM9k.wav" plays="0" score="53.0" comment="some hissy highs"/>
+      <testFile fileName="TM5k.wav" plays="0" score="71.0" comment="not bad, some loss of highs definition"/>
+      <testFile fileName="TM10.5k.wav" plays="0" score="100.0" comment="reference"/>
+      <testFile fileName="TM7k.wav" plays="0" score="70.0" comment="subtle modulation when it gets loud"/>
+      <testFile fileName="LP70.wav" plays="0" score="14.0" comment="no highs"/>
+      <testFile fileName="reference.wav" plays="0" score="49.0" comment="loose highs, some hiss"/>
+    </trial>
+    <trial trialName="SH_04_choral" trialSeconds="85.0" referencePlays="1">
+      <testFile fileName="LP70.wav" plays="0" score="29.0" comment="napster MP3 like"/>
+      <testFile fileName="SH70_MS.wav" plays="0" score="8.0" comment="terrible garble"/>
+      <testFile fileName="SH30_MS.wav" plays="0" score="17.0" comment="still some garble"/>
+      <testFile fileName="SH50_MS.wav" plays="0" score="13.0" comment="terrible garble"/>
+      <testFile fileName="SH10_MS.wav" plays="0" score="34.0" comment="less garble"/>
+      <testFile fileName="LP35.wav" plays="0" score="3.0" comment="no highs, no definition"/>
+      <testFile fileName="SH20_MS.wav" plays="0" score="31.0" comment="some garble, still pretty bad"/>
+      <testFile fileName="reference.wav" plays="0" score="100.0" comment="reference"/>
+    </trial>
+    <trial trialName="DE_female_speech_music_2_LD9" trialSeconds="121.0"
+           referencePlays="4">
+      <testFile fileName="Cocktail_mid.wav" plays="0" score="49.0" comment="hissy highs, background artifacts"/>
+      <testFile fileName="PSM_quantize_mask.wav" plays="0" score="82.0" comment="some fidelity issues, but pretty good"/>
+      <testFile fileName="TFC_TDF_U_Net_mid.wav" plays="0" score="44.0" comment="hissy highs, low fidelity sounding"/>
+      <testFile fileName="OpenUnmix_mid.wav" plays="0" score="11.0" comment="background artifacts"/>
+      <testFile fileName="LP70.wav" plays="0" score="26.0" comment="skype-like, bad fidelity"/>
+      <testFile fileName="LP35.wav" plays="0" score="5.0" comment="telephonic"/>
+      <testFile fileName="DeepFilterNet2_mid.wav" plays="0" score="69.0" comment="lost acoustic space on dialogue, less fidelity, some hiss in highs"/>
+      <testFile fileName="reference.wav" plays="0" score="100.0" comment="reference"/>
+    </trial>
+    <trial trialName="SH_CreatureFromTheBlackjackTable" trialSeconds="131.0"
+           referencePlays="5">
+      <testFile fileName="SH20_MS.wav" plays="0" score="61.0" comment="crunched highs, but consistent"/>
+      <testFile fileName="LP70.wav" plays="0" score="17.0" comment="no highs"/>
+      <testFile fileName="LP35.wav" plays="0" score="5.0" comment="telephonic, but consistent"/>
+      <testFile fileName="SH70_MS.wav" plays="0" score="7.0" comment="terrible garble"/>
+      <testFile fileName="SH30_MS.wav" plays="0" score="43.0" comment="bad fidelity when busy"/>
+      <testFile fileName="SH10_MS.wav" plays="0" score="55.0" comment="not great fidelity, highs distortion"/>
+      <testFile fileName="reference.wav" plays="0" score="100.0" comment="reference"/>
+      <testFile fileName="SH50_MS.wav" plays="0" score="37.0" comment="garbled, poor fidelity"/>
+    </trial>
+    <trial trialName="DE_female_speech_music_3_LD3" trialSeconds="147.0"
+           referencePlays="13">
+      <testFile fileName="LP70.wav" plays="0" score="19.0" comment="no highs"/>
+      <testFile fileName="reference.wav" plays="0" score="100.0" comment="reference"/>
+      <testFile fileName="Cocktail_mid.wav" plays="0" score="37.0" comment="consonants distorted"/>
+      <testFile fileName="TFC_TDF_U_Net_mid.wav" plays="0" score="50.0" comment="strange background hiss"/>
+      <testFile fileName="LP35.wav" plays="0" score="3.0" comment="terrible"/>
+      <testFile fileName="OpenUnmix_mid.wav" plays="0" score="8.0" comment="super weird ghosting artifacts"/>
+      <testFile fileName="PSM_quantize_mask.wav" plays="0" score="54.0" comment="thinning of the voice, not great fidelity"/>
+      <testFile fileName="DeepFilterNet2_mid.wav" plays="0" score="78.0" comment="weak highs, slight distortion and warble"/>
+    </trial>
+    <trial trialName="DE_ElephantsDream_LD0" trialSeconds="105.0" referencePlays="11">
+      <testFile fileName="OpenUnmix_mid.wav" plays="0" score="28.0" comment="highs and background distorted"/>
+      <testFile fileName="reference.wav" plays="0" score="50.0" comment="garbled, not great fidelity"/>
+      <testFile fileName="TFC_TDF_U_Net_mid.wav" plays="0" score="38.0" comment="modulated, bad highs"/>
+      <testFile fileName="DeepFilterNet2_mid.wav" plays="0" score="56.0" comment="bad fidelity, but more consistent"/>
+      <testFile fileName="LP70.wav" plays="0" score="16.0" comment="no highs"/>
+      <testFile fileName="PSM_quantize_mask.wav" plays="0" score="100.0" comment="reference"/>
+      <testFile fileName="LP35.wav" plays="0" score="9.0" comment="terrible"/>
+      <testFile fileName="Cocktail_mid.wav" plays="0" score="70.0" comment="ringy highs, distorted"/>
+    </trial>
+    <trial trialName="LP_23_jazz" trialSeconds="132.0" referencePlays="15">
+      <testFile fileName="LP150.wav" plays="0" score="100.0" comment="reference"/>
+      <testFile fileName="LP120.wav" plays="0" score="70.0" comment="slightly less fidelity"/>
+      <testFile fileName="LP70.wav" plays="0" score="28.0" comment="no highs, but consistent"/>
+      <testFile fileName="LP90.wav" plays="0" score="49.0" comment="crispy highs, some hiss, consistent"/>
+      <testFile fileName="LP105.wav" plays="0" score="70.0" comment="less definition on highs, but decent quality"/>
+      <testFile fileName="LP35.wav" plays="0" score="9.0" comment="terrible, no highs"/>
+      <testFile fileName="reference.wav" plays="0" score="91.0" comment="very good, could be reference maybe"/>
+      <testFile fileName="LP50.wav" plays="0" score="14.0" comment="no highs"/>
+    </trial>
+    <trial trialName="DE_SitaSings_remix2_LD6" trialSeconds="99.0" referencePlays="4">
+      <testFile fileName="reference.wav" plays="0" score="100.0" comment="reference"/>
+      <testFile fileName="TFC_TDF_U_Net_mid.wav" plays="0" score="50.0" comment="hissy highs, low fidelity, bad intelligibilty"/>
+      <testFile fileName="LP35.wav" plays="0" score="6.0" comment="no highs, telephonic"/>
+      <testFile fileName="DeepFilterNet2_mid.wav" plays="0" score="47.0" comment="bad fidelity, warbly highs"/>
+      <testFile fileName="LP70.wav" plays="0" score="22.0" comment="bad quality, less highs, but consistent"/>
+      <testFile fileName="OpenUnmix_mid.wav" plays="0" score="7.0" comment="strange background artifacts"/>
+      <testFile fileName="PSM_quantize_mask.wav" plays="0" score="52.0" comment="bad fidelity"/>
+      <testFile fileName="Cocktail_mid.wav" plays="0" score="33.0" comment="bad fidelity, and bad highs"/>
+    </trial>
+    <trial trialName="DE_female_speech_music_1_LD0" trialSeconds="123.0"
+           referencePlays="15">
+      <testFile fileName="TFC_TDF_U_Net_mid.wav" plays="0" score="36.0" comment="bad highs, intelligibilty gets messed up &quot;slave&quot;"/>
+      <testFile fileName="PSM_quantize_mask.wav" plays="0" score="44.0" comment="bad fidelity, but consistent"/>
+      <testFile fileName="LP70.wav" plays="0" score="16.0" comment="no highs"/>
+      <testFile fileName="LP35.wav" plays="0" score="5.0" comment="even worse than 3"/>
+      <testFile fileName="OpenUnmix_mid.wav" plays="0" score="34.0" comment="bad highs and strange background artifacts"/>
+      <testFile fileName="Cocktail_mid.wav" plays="0" score="33.0" comment="bad highs, hissy and consonant issues"/>
+      <testFile fileName="reference.wav" plays="0" score="100.0" comment="reference"/>
+      <testFile fileName="DeepFilterNet2_mid.wav" plays="0" score="40.0" comment="distorted highs, bad fidelity on voice, background is ok"/>
+    </trial>
+    <trial trialName="TM_02_violin" trialSeconds="98.0" referencePlays="10">
+      <testFile fileName="TM10.5k.wav" plays="0" score="100.0" comment="reference"/>
+      <testFile fileName="TM5k.wav" plays="0" score="38.0" comment="ringy highs"/>
+      <testFile fileName="TM3k.wav" plays="0" score="17.0" comment="modulated highs, strange harmonics"/>
+      <testFile fileName="TM7k.wav" plays="0" score="22.0" comment="still strange harmonics, but better fidelity"/>
+      <testFile fileName="LP35.wav" plays="0" score="6.0" comment="no highs, no definition"/>
+      <testFile fileName="reference.wav" plays="0" score="68.0" comment="decent fidelity, some acoustic space lost"/>
+      <testFile fileName="LP70.wav" plays="0" score="28.0" comment="less definition, no sparkle"/>
+      <testFile fileName="TM9k.wav" plays="0" score="62.0" comment="ok"/>
+    </trial>
+    <trial trialName="UN_21_violin" trialSeconds="120.0" referencePlays="4">
+      <testFile fileName="reference.wav" plays="0" score="100.0" comment="reference"/>
+      <testFile fileName="LP35.wav" plays="0" score="23.0" comment="no highs, but consistent"/>
+      <testFile fileName="LP70.wav" plays="0" score="35.0" comment="no definition but consistent"/>
+      <testFile fileName="UN3k.wav" plays="0" score="8.0" comment="bad fidelity, terrble crickets kind of sound with highs"/>
+      <testFile fileName="UN10.5k.wav" plays="0" score="87.0" comment="subtle hissy on highs, but pretty good"/>
+      <testFile fileName="UN5k.wav" plays="0" score="16.0" comment="buzzy highs, bad fidelity"/>
+      <testFile fileName="UN7k.wav" plays="0" score="26.0" comment="ringy/buzzy highs"/>
+      <testFile fileName="UN9k.wav" plays="0" score="67.0" comment="hissy highs, but good fidelity"/>
+    </trial>
+    <trial trialName="DE_Meridian_remix2_LD6" trialSeconds="125.0" referencePlays="14">
+      <testFile fileName="LP70.wav" plays="0" score="21.0" comment="no highs"/>
+      <testFile fileName="OpenUnmix_mid.wav" plays="0" score="16.0" comment="background artifact and bad fidelity"/>
+      <testFile fileName="reference.wav" plays="0" score="100.0" comment="reference"/>
+      <testFile fileName="TFC_TDF_U_Net_mid.wav" plays="0" score="38.0" comment="ringy highs, strange"/>
+      <testFile fileName="LP35.wav" plays="0" score="17.0" comment="no highs"/>
+      <testFile fileName="PSM_quantize_mask.wav" plays="0" score="55.0" comment="ok, but lower fidelity"/>
+      <testFile fileName="DeepFilterNet2_mid.wav" plays="0" score="61.0" comment="ok, but lower fidelity"/>
+      <testFile fileName="Cocktail_mid.wav" plays="0" score="38.0" comment="bad background"/>
+    </trial>
+    <trial trialName="LP_CreatureFromTheBlackjackTable" trialSeconds="107.0"
+           referencePlays="14">
+      <testFile fileName="reference.wav" plays="0" score="100.0" comment="reference"/>
+      <testFile fileName="LP120.wav" plays="0" score="83.0" comment="less highs definition, but pretty good"/>
+      <testFile fileName="LP70.wav" plays="0" score="32.0" comment="no highs, but consistent"/>
+      <testFile fileName="LP50.wav" plays="0" score="9.0" comment="telephonic, no highs"/>
+      <testFile fileName="LP150.wav" plays="0" score="86.0" comment="decent, but some loss of highs"/>
+      <testFile fileName="LP35.wav" plays="0" score="12.0" comment="no highs"/>
+      <testFile fileName="LP105.wav" plays="0" score="59.0" comment="ok, but falls apart when it gets busy"/>
+      <testFile fileName="LP90.wav" plays="0" score="52.0" comment="bad fidelity, gets worse when it gets busy"/>
+    </trial>
+  </trials>
+</MUSHRA>

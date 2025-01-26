@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<MUSHRA>
+  <info startTime="2023-08-31T09:48:16.545+02:00" stopTime="2023-08-31T10:45:19.361+02:00"
+        subjectName="DEID10" testName="ODAQ" stimuliDirectory="/final_full_test"
+        trialsPerSession="10" testStatus="complete"/>
+  <trials>
+    <trial trialName="LP_AmateurOnPurpose" trialSeconds="1332.0" referencePlays="209">
+      <testFile fileName="LP120.wav" plays="0" score="79.0"/>
+      <testFile fileName="LP50.wav" plays="0" score="25.0"/>
+      <testFile fileName="LP150.wav" plays="0" score="100.0"/>
+      <testFile fileName="LP90.wav" plays="0" score="50.0"/>
+      <testFile fileName="LP35.wav" plays="0" score="15.0"/>
+      <testFile fileName="reference.wav" plays="0" score="100.0"/>
+      <testFile fileName="LP70.wav" plays="0" score="38.0"/>
+      <testFile fileName="LP105.wav" plays="0" score="57.0"/>
+    </trial>
+    <trial trialName="PE_AmateurOnPurpose" trialSeconds="843.0" referencePlays="146">
+      <testFile fileName="PE_1024_MS_NMR16.wav" plays="0" score="94.0"/>
+      <testFile fileName="LP70.wav" plays="0" score="27.0"/>
+      <testFile fileName="LP35.wav" plays="0" score="16.0"/>
+      <testFile fileName="PE_1024_MS_NMR10.wav" plays="0" score="65.0"/>
+      <testFile fileName="PE_2048_MS_NMR10.wav" plays="0" score="58.0"/>
+      <testFile fileName="PE_2048_MS_NMR16.wav" plays="0" score="100.0"/>
+      <testFile fileName="PE_4096_MS_NMR10.wav" plays="0" score="45.0"/>
+      <testFile fileName="reference.wav" plays="0" score="100.0"/>
+    </trial>
+    <trial trialName="TM_02_violin" trialSeconds="578.0" referencePlays="116">
+      <testFile fileName="TM7k.wav" plays="0" score="51.0"/>
+      <testFile fileName="LP70.wav" plays="0" score="59.0"/>
+      <testFile fileName="TM3k.wav" plays="0" score="28.0"/>
+      <testFile fileName="TM9k.wav" plays="0" score="90.0"/>
+      <testFile fileName="TM10.5k.wav" plays="0" score="81.0"/>
+      <testFile fileName="reference.wav" plays="0" score="100.0"/>
+      <testFile fileName="TM5k.wav" plays="0" score="39.0"/>
+      <testFile fileName="LP35.wav" plays="0" score="27.0"/>
+    </trial>
+    <trial trialName="PE_27_castanets" trialSeconds="279.0" referencePlays="39">
+      <testFile fileName="PE_4096_MS_NMR10.wav" plays="0" score="23.0"/>
+      <testFile fileName="reference.wav" plays="0" score="100.0"/>
+      <testFile fileName="LP70.wav" plays="0" score="35.0"/>
+      <testFile fileName="PE_2048_MS_NMR16.wav" plays="0" score="48.0"/>
+      <testFile fileName="LP35.wav" plays="0" score="15.0"/>
+      <testFile fileName="PE_1024_MS_NMR16.wav" plays="0" score="63.0"/>
+      <testFile fileName="PE_1024_MS_NMR10.wav" plays="0" score="44.0"/>
+      <testFile fileName="PE_2048_MS_NMR10.wav" plays="0" score="33.0"/>
+    </trial>
+    <trial trialName="UN_21_violin" trialSeconds="782.0" referencePlays="146">
+      <testFile fileName="UN5k.wav" plays="0" score="47.0"/>
+      <testFile fileName="reference.wav" plays="0" score="100.0"/>
+      <testFile fileName="UN9k.wav" plays="0" score="90.0"/>
+      <testFile fileName="LP70.wav" plays="0" score="56.0"/>
+      <testFile fileName="UN3k.wav" plays="0" score="24.0"/>
+      <testFile fileName="LP35.wav" plays="0" score="23.0"/>
+      <testFile fileName="UN10.5k.wav" plays="0" score="93.0"/>
+      <testFile fileName="UN7k.wav" plays="0" score="62.0"/>
+    </trial>
+    <trial trialName="DE_female_speech_music_3_LD3" trialSeconds="437.0"
+           referencePlays="74">
+      <testFile fileName="OpenUnmix_mid.wav" plays="0" score="18.0"/>
+      <testFile fileName="LP35.wav" plays="0" score="18.0"/>
+      <testFile fileName="DeepFilterNet2_mid.wav" plays="0" score="48.0"/>
+      <testFile fileName="Cocktail_mid.wav" plays="0" score="40.0"/>
+      <testFile fileName="PSM_quantize_mask.wav" plays="0" score="70.0"/>
+      <testFile fileName="reference.wav" plays="0" score="100.0"/>
+      <testFile fileName="TFC_TDF_U_Net_mid.wav" plays="0" score="32.0"/>
+      <testFile fileName="LP70.wav" plays="0" score="50.0"/>
+    </trial>
+    <trial trialName="DE_Meridian_remix1_LD3" trialSeconds="406.0" referencePlays="72">
+      <testFile fileName="LP35.wav" plays="0" score="24.0"/>
+      <testFile fileName="DeepFilterNet2_mid.wav" plays="0" score="47.0"/>
+      <testFile fileName="reference.wav" plays="0" score="100.0"/>
+      <testFile fileName="PSM_quantize_mask.wav" plays="0" score="91.0"/>
+      <testFile fileName="OpenUnmix_mid.wav" plays="0" score="24.0"/>
+      <testFile fileName="Cocktail_mid.wav" plays="0" score="42.0"/>
+      <testFile fileName="LP70.wav" plays="0" score="53.0"/>
+      <testFile fileName="TFC_TDF_U_Net_mid.wav" plays="0" score="45.0"/>
+    </trial>
+    <trial trialName="TM_AmateurOnPurpose" trialSeconds="391.0" referencePlays="60">
+      <testFile fileName="LP70.wav" plays="0" score="36.0"/>
+      <testFile fileName="TM5k.wav" plays="0" score="45.0"/>
+      <testFile fileName="TM9k.wav" plays="0" score="79.0"/>
+      <testFile fileName="TM3k.wav" plays="0" score="29.0"/>
+      <testFile fileName="TM7k.wav" plays="0" score="57.0"/>
+      <testFile fileName="reference.wav" plays="0" score="100.0"/>
+      <testFile fileName="TM10.5k.wav" plays="0" score="73.0"/>
+      <testFile fileName="LP35.wav" plays="0" score="18.0"/>
+    </trial>
+    <trial trialName="SH_AmateurOnPurpose" trialSeconds="295.0" referencePlays="39">
+      <testFile fileName="SH30_MS.wav" plays="0" score="40.0"/>
+      <testFile fileName="LP70.wav" plays="0" score="39.0"/>
+      <testFile fileName="LP35.wav" plays="0" score="19.0"/>
+      <testFile fileName="SH50_MS.wav" plays="0" score="24.0"/>
+      <testFile fileName="reference.wav" plays="0" score="100.0"/>
+      <testFile fileName="SH70_MS.wav" plays="0" score="19.0"/>
+      <testFile fileName="SH20_MS.wav" plays="0" score="61.0"/>
+      <testFile fileName="SH10_MS.wav" plays="0" score="69.0"/>
+    </trial>
+    <trial trialName="DE_ElephantsDream_LD0" trialSeconds="231.0" referencePlays="36">
+      <testFile fileName="LP35.wav" plays="0" score="25.0"/>
+      <testFile fileName="OpenUnmix_mid.wav" plays="0" score="25.0"/>
+      <testFile fileName="PSM_quantize_mask.wav" plays="0" score="61.0"/>
+      <testFile fileName="LP70.wav" plays="0" score="41.0"/>
+      <testFile fileName="DeepFilterNet2_mid.wav" plays="0" score="66.0"/>
+      <testFile fileName="reference.wav" plays="0" score="100.0"/>
+      <testFile fileName="Cocktail_mid.wav" plays="0" score="37.0"/>
+      <testFile fileName="TFC_TDF_U_Net_mid.wav" plays="0" score="31.0"/>
+    </trial>
+    <trial trialName="DE_SitaSings_remix2_LD6" trialSeconds="347.0" referencePlays="56">
+      <testFile fileName="Cocktail_mid.wav" plays="0" score="52.0"/>
+      <testFile fileName="DeepFilterNet2_mid.wav" plays="0" score="56.0"/>
+      <testFile fileName="OpenUnmix_mid.wav" plays="0" score="16.0"/>
+      <testFile fileName="LP35.wav" plays="0" score="16.0"/>
+      <testFile fileName="PSM_quantize_mask.wav" plays="0" score="76.0"/>
+      <testFile fileName="LP70.wav" plays="0" score="39.0"/>
+      <testFile fileName="reference.wav" plays="0" score="100.0"/>
+      <testFile fileName="TFC_TDF_U_Net_mid.wav" plays="0" score="22.0"/>
+    </trial>
+    <trial trialName="UN_CreatureFromTheBlackjackTable" trialSeconds="539.0"
+           referencePlays="91">
+      <testFile fileName="LP35.wav" plays="0" score="18.0"/>
+      <testFile fileName="UN9k.wav" plays="0" score="73.0"/>
+      <testFile fileName="UN3k.wav" plays="0" score="35.0"/>
+      <testFile fileName="LP70.wav" plays="0" score="28.0"/>
+      <testFile fileName="UN10.5k.wav" plays="0" score="79.0"/>
+      <testFile fileName="UN7k.wav" plays="0" score="58.0"/>
+      <testFile fileName="UN5k.wav" plays="0" score="52.0"/>
+      <testFile fileName="reference.wav" plays="0" score="100.0"/>
+    </trial>
+    <trial trialName="DE_Meridian_remix2_LD6" trialSeconds="349.0" referencePlays="70">
+      <testFile fileName="Cocktail_mid.wav" plays="0" score="53.0"/>
+      <testFile fileName="LP70.wav" plays="0" score="30.0"/>
+      <testFile fileName="DeepFilterNet2_mid.wav" plays="0" score="68.0"/>
+      <testFile fileName="PSM_quantize_mask.wav" plays="0" score="82.0"/>
+      <testFile fileName="OpenUnmix_mid.wav" plays="0" score="41.0"/>
+      <testFile fileName="TFC_TDF_U_Net_mid.wav" plays="0" score="43.0"/>
+      <testFile fileName="LP35.wav" plays="0" score="14.0"/>
+      <testFile fileName="reference.wav" plays="0" score="100.0"/>
+    </trial>
+    <trial trialName="LP_11_guitar" trialSeconds="720.0" referencePlays="116">
+      <testFile fileName="LP90.wav" plays="0" score="65.0"/>
+      <testFile fileName="LP50.wav" plays="0" score="43.0"/>
+      <testFile fileName="LP150.wav" plays="0" score="100.0"/>
+      <testFile fileName="reference.wav" plays="0" score="97.0"/>
+      <testFile fileName="LP35.wav" plays="0" score="24.0"/>
+      <testFile fileName="LP120.wav" plays="0" score="86.0"/>
+      <testFile fileName="LP70.wav" plays="0" score="48.0"/>
+      <testFile fileName="LP105.wav" plays="0" score="72.0"/>
+    </trial>
+    <trial trialName="DE_female_speech_music_2_LD9" trialSeconds="301.0"
+           referencePlays="50">
+      <testFile fileName="PSM_quantize_mask.wav" plays="0" score="82.0"/>
+      <testFile fileName="Cocktail_mid.wav" plays="0" score="36.0"/>
+      <testFile fileName="reference.wav" plays="0" score="100.0"/>
+      <testFile fileName="LP70.wav" plays="0" score="26.0"/>
+      <testFile fileName="DeepFilterNet2_mid.wav" plays="0" score="61.0"/>
+      <testFile fileName="TFC_TDF_U_Net_mid.wav" plays="0" score="43.0"/>
+      <testFile fileName="LP35.wav" plays="0" score="18.0"/>
+      <testFile fileName="OpenUnmix_mid.wav" plays="0" score="18.0"/>
+    </trial>
+    <trial trialName="SH_13_glockenspiel" trialSeconds="250.0" referencePlays="32">
+      <testFile fileName="SH50_MS.wav" plays="0" score="15.0"/>
+      <testFile fileName="LP70.wav" plays="0" score="35.0"/>
+      <testFile fileName="SH10_MS.wav" plays="0" score="61.0"/>
+      <testFile fileName="SH30_MS.wav" plays="0" score="32.0"/>
+      <testFile fileName="SH20_MS.wav" plays="0" score="41.0"/>
+      <testFile fileName="reference.wav" plays="0" score="100.0"/>
+      <testFile fileName="LP35.wav" plays="0" score="19.0"/>
+      <testFile fileName="SH70_MS.wav" plays="0" score="9.0"/>
+    </trial>
+    <trial trialName="LP_CreatureFromTheBlackjackTable" trialSeconds="377.0"
+           referencePlays="50">
+      <testFile fileName="reference.wav" plays="0" score="100.0"/>
+      <testFile fileName="LP90.wav" plays="0" score="45.0"/>
+      <testFile fileName="LP150.wav" plays="0" score="97.0"/>
+      <testFile fileName="LP50.wav" plays="0" score="26.0"/>
+      <testFile fileName="LP105.wav" plays="0" score="56.0"/>
+      <testFile fileName="LP35.wav" plays="0" score="16.0"/>
+      <testFile fileName="LP120.wav" plays="0" score="67.0"/>
+      <testFile fileName="LP70.wav" plays="0" score="35.0"/>
+    </trial>
+    <trial trialName="DE_CosmosLandromat_remix3_LD3" trialSeconds="254.0"
+           referencePlays="46">
+      <testFile fileName="OpenUnmix_mid.wav" plays="0" score="29.0"/>
+      <testFile fileName="Cocktail_mid.wav" plays="0" score="46.0"/>
+      <testFile fileName="LP35.wav" plays="0" score="20.0"/>
+      <testFile fileName="LP70.wav" plays="0" score="36.0"/>
+      <testFile fileName="reference.wav" plays="0" score="100.0"/>
+      <testFile fileName="DeepFilterNet2_mid.wav" plays="0" score="59.0"/>
+      <testFile fileName="PSM_quantize_mask.wav" plays="0" score="76.0"/>
+      <testFile fileName="TFC_TDF_U_Net_mid.wav" plays="0" score="40.0"/>
+    </trial>
+    <trial trialName="DE_SitaSings_remix1_LD0" trialSeconds="172.0" referencePlays="32">
+      <testFile fileName="Cocktail_mid.wav" plays="0" score="38.0"/>
+      <testFile fileName="PSM_quantize_mask.wav" plays="0" score="76.0"/>
+      <testFile fileName="TFC_TDF_U_Net_mid.wav" plays="0" score="27.0"/>
+      <testFile fileName="OpenUnmix_mid.wav" plays="0" score="11.0"/>
+      <testFile fileName="reference.wav" plays="0" score="100.0"/>
+      <testFile fileName="DeepFilterNet2_mid.wav" plays="0" score="58.0"/>
+      <testFile fileName="LP70.wav" plays="0" score="39.0"/>
+      <testFile fileName="LP35.wav" plays="0" score="17.0"/>
+    </trial>
+    <trial trialName="TM_CreatureFromTheBlackjackTable" trialSeconds="342.0"
+           referencePlays="57">
+      <testFile fileName="LP70.wav" plays="0" score="34.0"/>
+      <testFile fileName="TM10.5k.wav" plays="0" score="80.0"/>
+      <testFile fileName="TM5k.wav" plays="0" score="48.0"/>
+      <testFile fileName="TM3k.wav" plays="0" score="17.0"/>
+      <testFile fileName="reference.wav" plays="0" score="100.0"/>
+      <testFile fileName="LP35.wav" plays="0" score="13.0"/>
+      <testFile fileName="TM9k.wav" plays="0" score="75.0"/>
+      <testFile fileName="TM7k.wav" plays="0" score="41.0"/>
+    </trial>
+    <trial trialName="UN_AmateurOnPurpose" trialSeconds="366.0" referencePlays="46">
+      <testFile fileName="reference.wav" plays="0" score="100.0"/>
+      <testFile fileName="LP70.wav" plays="0" score="28.0"/>
+      <testFile fileName="LP35.wav" plays="0" score="16.0"/>
+      <testFile fileName="UN9k.wav" plays="0" score="60.0"/>
+      <testFile fileName="UN3k.wav" plays="0" score="32.0"/>
+      <testFile fileName="UN7k.wav" plays="0" score="50.0"/>
+      <testFile fileName="UN10.5k.wav" plays="0" score="72.0"/>
+      <testFile fileName="UN5k.wav" plays="0" score="46.0"/>
+    </trial>
+    <trial trialName="UN_20c_accordion" trialSeconds="282.0" referencePlays="38">
+      <testFile fileName="UN3k.wav" plays="0" score="18.0"/>
+      <testFile fileName="UN10.5k.wav" plays="0" score="84.0"/>
+      <testFile fileName="UN7k.wav" plays="0" score="47.0"/>
+      <testFile fileName="reference.wav" plays="0" score="100.0"/>
+      <testFile fileName="LP70.wav" plays="0" score="29.0"/>
+      <testFile fileName="LP35.wav" plays="0" score="12.0"/>
+      <testFile fileName="UN9k.wav" plays="0" score="66.0"/>
+      <testFile fileName="UN5k.wav" plays="0" score="33.0"/>
+    </trial>
+    <trial trialName="SH_CreatureFromTheBlackjackTable" trialSeconds="308.0"
+           referencePlays="48">
+      <testFile fileName="SH70_MS.wav" plays="0" score="13.0"/>
+      <testFile fileName="LP35.wav" plays="0" score="18.0"/>
+      <testFile fileName="SH50_MS.wav" plays="0" score="26.0"/>
+      <testFile fileName="SH30_MS.wav" plays="0" score="40.0"/>
+      <testFile fileName="SH10_MS.wav" plays="0" score="69.0"/>
+      <testFile fileName="LP70.wav" plays="0" score="36.0"/>
+      <testFile fileName="SH20_MS.wav" plays="0" score="53.0"/>
+      <testFile fileName="reference.wav" plays="0" score="100.0"/>
+    </trial>
+    <trial trialName="TM_01b_trumpet" trialSeconds="459.0" referencePlays="91">
+      <testFile fileName="TM3k.wav" plays="0" score="16.0"/>
+      <testFile fileName="LP70.wav" plays="0" score="40.0"/>
+      <testFile fileName="TM10.5k.wav" plays="0" score="100.0"/>
+      <testFile fileName="TM7k.wav" plays="0" score="45.0"/>
+      <testFile fileName="LP35.wav" plays="0" score="16.0"/>
+      <testFile fileName="reference.wav" plays="0" score="96.0"/>
+      <testFile fileName="TM9k.wav" plays="0" score="77.0"/>
+      <testFile fileName="TM5k.wav" plays="0" score="35.0"/>
+    </trial>
+    <trial trialName="DE_CosmosLandromat_remix1_LD6" trialSeconds="271.0"
+           referencePlays="37">
+      <testFile fileName="TFC_TDF_U_Net_mid.wav" plays="0" score="23.0"/>
+      <testFile fileName="PSM_quantize_mask.wav" plays="0" score="61.0"/>
+      <testFile fileName="LP35.wav" plays="0" score="13.0"/>
+      <testFile fileName="OpenUnmix_mid.wav" plays="0" score="13.0"/>
+      <testFile fileName="LP70.wav" plays="0" score="41.0"/>
+      <testFile fileName="reference.wav" plays="0" score="100.0"/>
+      <testFile fileName="DeepFilterNet2_mid.wav" plays="0" score="42.0"/>
+      <testFile fileName="Cocktail_mid.wav" plays="0" score="33.0"/>
+    </trial>
+    <trial trialName="PE_CreatureFromTheBlackjackTable" trialSeconds="546.0"
+           referencePlays="111">
+      <testFile fileName="LP35.wav" plays="0" score="12.0"/>
+      <testFile fileName="LP70.wav" plays="0" score="28.0"/>
+      <testFile fileName="PE_4096_MS_NMR10.wav" plays="0" score="17.0"/>
+      <testFile fileName="reference.wav" plays="0" score="100.0"/>
+      <testFile fileName="PE_1024_MS_NMR10.wav" plays="0" score="48.0"/>
+      <testFile fileName="PE_2048_MS_NMR10.wav" plays="0" score="32.0"/>
+      <testFile fileName="PE_1024_MS_NMR16.wav" plays="0" score="90.0"/>
+      <testFile fileName="PE_2048_MS_NMR16.wav" plays="0" score="66.0"/>
+    </trial>
+    <trial trialName="DE_female_speech_music_1_LD0" trialSeconds="381.0"
+           referencePlays="66">
+      <testFile fileName="LP70.wav" plays="0" score="39.0"/>
+      <testFile fileName="reference.wav" plays="0" score="100.0"/>
+      <testFile fileName="LP35.wav" plays="0" score="17.0"/>
+      <testFile fileName="Cocktail_mid.wav" plays="0" score="38.0"/>
+      <testFile fileName="TFC_TDF_U_Net_mid.wav" plays="0" score="18.0"/>
+      <testFile fileName="OpenUnmix_mid.wav" plays="0" score="16.0"/>
+      <testFile fileName="PSM_quantize_mask.wav" plays="0" score="57.0"/>
+      <testFile fileName="DeepFilterNet2_mid.wav" plays="0" score="31.0"/>
+    </trial>
+    <trial trialName="SH_04_choral" trialSeconds="250.0" referencePlays="47">
+      <testFile fileName="SH30_MS.wav" plays="0" score="41.0"/>
+      <testFile fileName="SH70_MS.wav" plays="0" score="16.0"/>
+      <testFile fileName="LP70.wav" plays="0" score="43.0"/>
+      <testFile fileName="reference.wav" plays="0" score="100.0"/>
+      <testFile fileName="SH20_MS.wav" plays="0" score="56.0"/>
+      <testFile fileName="SH10_MS.wav" plays="0" score="66.0"/>
+      <testFile fileName="SH50_MS.wav" plays="0" score="26.0"/>
+      <testFile fileName="LP35.wav" plays="0" score="16.0"/>
+    </trial>
+    <trial trialName="PE_39_clapping" trialSeconds="213.0" referencePlays="32">
+      <testFile fileName="PE_4096_MS_NMR10.wav" plays="0" score="9.0"/>
+      <testFile fileName="LP35.wav" plays="0" score="12.0"/>
+      <testFile fileName="reference.wav" plays="0" score="100.0"/>
+      <testFile fileName="PE_1024_MS_NMR10.wav" plays="0" score="35.0"/>
+      <testFile fileName="PE_2048_MS_NMR16.wav" plays="0" score="46.0"/>
+      <testFile fileName="PE_2048_MS_NMR10.wav" plays="0" score="21.0"/>
+      <testFile fileName="LP70.wav" plays="0" score="42.0"/>
+      <testFile fileName="PE_1024_MS_NMR16.wav" plays="0" score="56.0"/>
+    </trial>
+    <trial trialName="LP_23_jazz" trialSeconds="299.0" referencePlays="57">
+      <testFile fileName="LP50.wav" plays="0" score="30.0"/>
+      <testFile fileName="LP35.wav" plays="0" score="15.0"/>
+      <testFile fileName="LP105.wav" plays="0" score="65.0"/>
+      <testFile fileName="LP120.wav" plays="0" score="85.0"/>
+      <testFile fileName="LP70.wav" plays="0" score="39.0"/>
+      <testFile fileName="reference.wav" plays="0" score="95.0"/>
+      <testFile fileName="LP150.wav" plays="0" score="100.0"/>
+      <testFile fileName="LP90.wav" plays="0" score="51.0"/>
+    </trial>
+  </trials>
+</MUSHRA>

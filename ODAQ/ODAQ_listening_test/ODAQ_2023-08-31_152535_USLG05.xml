@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<MUSHRA>
+  <info startTime="2023-08-31T14:31:13.228-07:00" stopTime="2023-08-31T15:25:35.845-07:00"
+        subjectName="USLG05" testName="ODAQ" stimuliDirectory="/final_full_test"
+        trialsPerSession="10" testStatus="complete"/>
+  <trials>
+    <trial trialName="TM_01b_trumpet" trialSeconds="523.0" referencePlays="24">
+      <testFile fileName="TM3k.wav" plays="0" score="69.0" comment="ringy"/>
+      <testFile fileName="TM10.5k.wav" plays="0" score="100.0"/>
+      <testFile fileName="TM5k.wav" plays="0" score="72.0" comment="ringy"/>
+      <testFile fileName="reference.wav" plays="0" score="95.0" comment="less sharp?"/>
+      <testFile fileName="LP35.wav" plays="0" score="18.0" comment="muffle"/>
+      <testFile fileName="LP70.wav" plays="0" score="29.0" comment="mono?"/>
+      <testFile fileName="TM7k.wav" plays="0" score="60.0" comment="bit ringy"/>
+      <testFile fileName="TM9k.wav" plays="0" score="99.0" comment="tiny quieter at parts?"/>
+    </trial>
+    <trial trialName="DE_CosmosLandromat_remix3_LD3" trialSeconds="346.0"
+           referencePlays="23">
+      <testFile fileName="Cocktail_mid.wav" plays="0" score="19.0" comment="static"/>
+      <testFile fileName="DeepFilterNet2_mid.wav" plays="0" score="68.0" comment="breath gone"/>
+      <testFile fileName="LP35.wav" plays="0" score="18.0" comment="muffle"/>
+      <testFile fileName="OpenUnmix_mid.wav" plays="0" score="12.0" comment="wtf"/>
+      <testFile fileName="LP70.wav" plays="0" score="27.0" comment="muffle bg gone"/>
+      <testFile fileName="reference.wav" plays="0" score="100.0"/>
+      <testFile fileName="PSM_quantize_mask.wav" plays="0" score="94.0" comment="tiny quieter"/>
+      <testFile fileName="TFC_TDF_U_Net_mid.wav" plays="0" score="19.0" comment="blurble"/>
+    </trial>
+    <trial trialName="UN_CreatureFromTheBlackjackTable" trialSeconds="553.0"
+           referencePlays="38">
+      <testFile fileName="UN9k.wav" plays="0" score="96.0" comment="close"/>
+      <testFile fileName="LP70.wav" plays="0" score="16.0" comment="muffle"/>
+      <testFile fileName="UN5k.wav" plays="0" score="100.0" comment="chk bass"/>
+      <testFile fileName="LP35.wav" plays="0" score="12.0" comment="mega muffle"/>
+      <testFile fileName="UN3k.wav" plays="0" score="93.0"/>
+      <testFile fileName="reference.wav" plays="0" score="98.0"/>
+      <testFile fileName="UN7k.wav" plays="0" score="54.0" comment="rasp"/>
+      <testFile fileName="UN10.5k.wav" plays="0" score="100.0"/>
+    </trial>
+    <trial trialName="DE_Meridian_remix1_LD3" trialSeconds="165.0" referencePlays="19">
+      <testFile fileName="reference.wav" plays="0" score="100.0"/>
+      <testFile fileName="TFC_TDF_U_Net_mid.wav" plays="0" score="19.0" comment="ringing"/>
+      <testFile fileName="OpenUnmix_mid.wav" plays="0" score="29.0" comment="weird"/>
+      <testFile fileName="PSM_quantize_mask.wav" plays="0" score="74.0" comment="smoother"/>
+      <testFile fileName="LP35.wav" plays="0" score="14.0" comment="muffle"/>
+      <testFile fileName="LP70.wav" plays="0" score="25.0" comment="muffle"/>
+      <testFile fileName="Cocktail_mid.wav" plays="0" score="25.0" comment="bg gone"/>
+      <testFile fileName="DeepFilterNet2_mid.wav" plays="0" score="24.0" comment="bg gone"/>
+    </trial>
+    <trial trialName="UN_20c_accordion" trialSeconds="146.0" referencePlays="16">
+      <testFile fileName="UN7k.wav" plays="0" score="18.0" comment="hiss"/>
+      <testFile fileName="UN9k.wav" plays="0" score="32.0" comment="hiss"/>
+      <testFile fileName="LP35.wav" plays="0" score="11.0" comment="muffle"/>
+      <testFile fileName="reference.wav" plays="0" score="100.0"/>
+      <testFile fileName="UN3k.wav" plays="0" score="16.0" comment="rasp"/>
+      <testFile fileName="UN10.5k.wav" plays="0" score="73.0" comment="mild rasp"/>
+      <testFile fileName="UN5k.wav" plays="0" score="25.0" comment="hiss"/>
+      <testFile fileName="LP70.wav" plays="0" score="15.0" comment="muffle"/>
+    </trial>
+    <trial trialName="SH_CreatureFromTheBlackjackTable" trialSeconds="163.0"
+           referencePlays="11">
+      <testFile fileName="SH70_MS.wav" plays="0" score="17.0" comment="realaudio"/>
+      <testFile fileName="SH10_MS.wav" plays="0" score="56.0" comment="realaudio best"/>
+      <testFile fileName="reference.wav" plays="0" score="100.0"/>
+      <testFile fileName="LP70.wav" plays="0" score="12.0" comment="muffle"/>
+      <testFile fileName="SH50_MS.wav" plays="0" score="14.0" comment="realaudio"/>
+      <testFile fileName="SH30_MS.wav" plays="0" score="15.0" comment="realaudio"/>
+      <testFile fileName="LP35.wav" plays="0" score="10.0" comment="muffle"/>
+      <testFile fileName="SH20_MS.wav" plays="0" score="25.0" comment="realaudio"/>
+    </trial>
+    <trial trialName="DE_CosmosLandromat_remix1_LD6" trialSeconds="143.0"
+           referencePlays="7">
+      <testFile fileName="LP35.wav" plays="0" score="15.0" comment="muffle"/>
+      <testFile fileName="reference.wav" plays="0" score="100.0"/>
+      <testFile fileName="TFC_TDF_U_Net_mid.wav" plays="0" score="16.0" comment="rumbletown"/>
+      <testFile fileName="OpenUnmix_mid.wav" plays="0" score="14.0" comment="trashcan"/>
+      <testFile fileName="LP70.wav" plays="0" score="15.0" comment="muffle"/>
+      <testFile fileName="DeepFilterNet2_mid.wav" plays="0" score="44.0" comment="muffled"/>
+      <testFile fileName="Cocktail_mid.wav" plays="0" score="16.0" comment="borg"/>
+      <testFile fileName="PSM_quantize_mask.wav" plays="0" score="25.0" comment="realaudio"/>
+    </trial>
+    <trial trialName="SH_04_choral" trialSeconds="90.0" referencePlays="1">
+      <testFile fileName="reference.wav" plays="0" score="100.0"/>
+      <testFile fileName="LP70.wav" plays="0" score="10.0" comment="muffle"/>
+      <testFile fileName="SH50_MS.wav" plays="0" score="13.0" comment="realaudio"/>
+      <testFile fileName="SH70_MS.wav" plays="0" score="12.0" comment="realaudio"/>
+      <testFile fileName="SH10_MS.wav" plays="0" score="27.0" comment="realaudio"/>
+      <testFile fileName="SH20_MS.wav" plays="0" score="26.0" comment="realaudio"/>
+      <testFile fileName="LP35.wav" plays="0" score="9.0" comment="muffle"/>
+      <testFile fileName="SH30_MS.wav" plays="0" score="15.0" comment="realaudio"/>
+    </trial>
+    <trial trialName="PE_AmateurOnPurpose" trialSeconds="366.0" referencePlays="31">
+      <testFile fileName="LP35.wav" plays="0" score="11.0" comment="muffle"/>
+      <testFile fileName="LP70.wav" plays="0" score="13.0" comment="mufflerasp"/>
+      <testFile fileName="PE_2048_MS_NMR10.wav" plays="0" score="89.0" comment="whumphy?"/>
+      <testFile fileName="PE_2048_MS_NMR16.wav" plays="0" score="98.0"/>
+      <testFile fileName="PE_1024_MS_NMR10.wav" plays="0" score="75.0" comment="echo?"/>
+      <testFile fileName="reference.wav" plays="0" score="98.0"/>
+      <testFile fileName="PE_1024_MS_NMR16.wav" plays="0" score="100.0"/>
+      <testFile fileName="PE_4096_MS_NMR10.wav" plays="0" score="54.0" comment="whumphy"/>
+    </trial>
+    <trial trialName="DE_Meridian_remix2_LD6" trialSeconds="247.0" referencePlays="17">
+      <testFile fileName="TFC_TDF_U_Net_mid.wav" plays="0" score="12.0" comment="bg change"/>
+      <testFile fileName="DeepFilterNet2_mid.wav" plays="0" score="29.0" comment="bg gone"/>
+      <testFile fileName="PSM_quantize_mask.wav" plays="0" score="44.0" comment="kitchen"/>
+      <testFile fileName="LP35.wav" plays="0" score="11.0" comment="muffle"/>
+      <testFile fileName="OpenUnmix_mid.wav" plays="0" score="28.0" comment="weird"/>
+      <testFile fileName="Cocktail_mid.wav" plays="0" score="68.0" comment="bg less"/>
+      <testFile fileName="reference.wav" plays="0" score="100.0"/>
+      <testFile fileName="LP70.wav" plays="0" score="15.0" comment="muffle"/>
+    </trial>
+    <trial trialName="SH_AmateurOnPurpose" trialSeconds="488.0" referencePlays="15">
+      <testFile fileName="LP35.wav" plays="0" score="14.0" comment="muffled"/>
+      <testFile fileName="SH70_MS.wav" plays="0" score="9.0" comment="realaudio"/>
+      <testFile fileName="LP70.wav" plays="0" score="17.0" comment="flattened"/>
+      <testFile fileName="reference.wav" plays="0" score="100.0"/>
+      <testFile fileName="SH30_MS.wav" plays="0" score="15.0" comment="realaudio"/>
+      <testFile fileName="SH10_MS.wav" plays="0" score="71.0" comment="lil blurpy"/>
+      <testFile fileName="SH50_MS.wav" plays="0" score="15.0" comment="realaudio"/>
+      <testFile fileName="SH20_MS.wav" plays="0" score="69.0" comment="lil blurpy"/>
+    </trial>
+    <trial trialName="DE_SitaSings_remix2_LD6" trialSeconds="165.0" referencePlays="11">
+      <testFile fileName="PSM_quantize_mask.wav" plays="0" score="57.0" comment="lil blurp"/>
+      <testFile fileName="DeepFilterNet2_mid.wav" plays="0" score="24.0" comment="robot"/>
+      <testFile fileName="reference.wav" plays="0" score="100.0"/>
+      <testFile fileName="Cocktail_mid.wav" plays="0" score="23.0" comment="robot"/>
+      <testFile fileName="LP35.wav" plays="0" score="9.0" comment="muffle"/>
+      <testFile fileName="TFC_TDF_U_Net_mid.wav" plays="0" score="24.0" comment="weird bg"/>
+      <testFile fileName="OpenUnmix_mid.wav" plays="0" score="9.0" comment="bizarre"/>
+      <testFile fileName="LP70.wav" plays="0" score="15.0" comment="muffle"/>
+    </trial>
+    <trial trialName="LP_23_jazz" trialSeconds="262.0" referencePlays="19">
+      <testFile fileName="LP150.wav" plays="0" score="67.0" comment="closer"/>
+      <testFile fileName="LP120.wav" plays="0" score="87.0" comment="softer"/>
+      <testFile fileName="LP50.wav" plays="0" score="10.0" comment="muffle"/>
+      <testFile fileName="LP90.wav" plays="0" score="10.0" comment="muffle tin"/>
+      <testFile fileName="reference.wav" plays="0" score="100.0"/>
+      <testFile fileName="LP35.wav" plays="0" score="15.0" comment="muffle"/>
+      <testFile fileName="LP105.wav" plays="0" score="19.0" comment="mono?"/>
+      <testFile fileName="LP70.wav" plays="0" score="11.0" comment="muffle"/>
+    </trial>
+    <trial trialName="LP_CreatureFromTheBlackjackTable" trialSeconds="288.0"
+           referencePlays="19">
+      <testFile fileName="LP35.wav" plays="0" score="6.0" comment="muffle"/>
+      <testFile fileName="LP150.wav" plays="0" score="93.0" comment="lil thin?"/>
+      <testFile fileName="LP120.wav" plays="0" score="52.0" comment="mild muffl"/>
+      <testFile fileName="LP105.wav" plays="0" score="11.0" comment="tin ow"/>
+      <testFile fileName="LP90.wav" plays="0" score="15.0" comment="muffle"/>
+      <testFile fileName="reference.wav" plays="0" score="100.0"/>
+      <testFile fileName="LP70.wav" plays="0" score="12.0" comment="muffle"/>
+      <testFile fileName="LP50.wav" plays="0" score="15.0" comment="muffle"/>
+    </trial>
+    <trial trialName="UN_AmateurOnPurpose" trialSeconds="385.0" referencePlays="42">
+      <testFile fileName="LP35.wav" plays="0" score="11.0" comment="muffle"/>
+      <testFile fileName="UN9k.wav" plays="0" score="74.0" comment="lil shh"/>
+      <testFile fileName="reference.wav" plays="0" score="100.0"/>
+      <testFile fileName="UN10.5k.wav" plays="0" score="84.0" comment="lil blurb"/>
+      <testFile fileName="UN5k.wav" plays="0" score="76.0" comment="lil shh"/>
+      <testFile fileName="LP70.wav" plays="0" score="11.0" comment="muffle"/>
+      <testFile fileName="UN3k.wav" plays="0" score="29.0" comment="bouncy"/>
+      <testFile fileName="UN7k.wav" plays="0" score="73.0" comment="flat?"/>
+    </trial>
+    <trial trialName="DE_female_speech_music_1_LD0" trialSeconds="263.0"
+           referencePlays="18">
+      <testFile fileName="reference.wav" plays="0" score="100.0"/>
+      <testFile fileName="PSM_quantize_mask.wav" plays="0" score="64.0" comment="echo"/>
+      <testFile fileName="Cocktail_mid.wav" plays="0" score="26.0" comment="thin"/>
+      <testFile fileName="OpenUnmix_mid.wav" plays="0" score="26.0" comment="weird echo"/>
+      <testFile fileName="LP35.wav" plays="0" score="7.0" comment="muffle"/>
+      <testFile fileName="TFC_TDF_U_Net_mid.wav" plays="0" score="12.0" comment="ringing"/>
+      <testFile fileName="DeepFilterNet2_mid.wav" plays="0" score="49.0" comment="bumba"/>
+      <testFile fileName="LP70.wav" plays="0" score="12.0" comment="muffle"/>
+    </trial>
+    <trial trialName="TM_CreatureFromTheBlackjackTable" trialSeconds="357.0"
+           referencePlays="25">
+      <testFile fileName="reference.wav" plays="0" score="97.0"/>
+      <testFile fileName="LP35.wav" plays="0" score="12.0" comment="muffle"/>
+      <testFile fileName="TM9k.wav" plays="0" score="88.0" comment="hotter"/>
+      <testFile fileName="TM10.5k.wav" plays="0" score="100.0"/>
+      <testFile fileName="TM7k.wav" plays="0" score="69.0" comment="hmm"/>
+      <testFile fileName="TM3k.wav" plays="0" score="15.0" comment="hisss"/>
+      <testFile fileName="LP70.wav" plays="0" score="15.0" comment="muffle"/>
+      <testFile fileName="TM5k.wav" plays="0" score="17.0" comment="hiss"/>
+    </trial>
+    <trial trialName="PE_27_castanets" trialSeconds="93.0" referencePlays="5">
+      <testFile fileName="PE_4096_MS_NMR10.wav" plays="0" score="13.0" comment="rasp"/>
+      <testFile fileName="LP35.wav" plays="0" score="16.0" comment="muffle"/>
+      <testFile fileName="reference.wav" plays="0" score="100.0"/>
+      <testFile fileName="PE_2048_MS_NMR16.wav" plays="0" score="12.0" comment="rasp"/>
+      <testFile fileName="PE_1024_MS_NMR16.wav" plays="0" score="26.0" comment="scrape"/>
+      <testFile fileName="PE_1024_MS_NMR10.wav" plays="0" score="26.0" comment="scrape"/>
+      <testFile fileName="PE_2048_MS_NMR10.wav" plays="0" score="11.0" comment="scrape rasp"/>
+      <testFile fileName="LP70.wav" plays="0" score="10.0" comment="muffle"/>
+    </trial>
+    <trial trialName="DE_female_speech_music_2_LD9" trialSeconds="109.0"
+           referencePlays="12">
+      <testFile fileName="LP70.wav" plays="0" score="16.0" comment="muffle room"/>
+      <testFile fileName="LP35.wav" plays="0" score="9.0" comment="muffle"/>
+      <testFile fileName="PSM_quantize_mask.wav" plays="0" score="70.0" comment="echo gone"/>
+      <testFile fileName="TFC_TDF_U_Net_mid.wav" plays="0" score="23.0" comment="weird bg"/>
+      <testFile fileName="reference.wav" plays="0" score="100.0"/>
+      <testFile fileName="OpenUnmix_mid.wav" plays="0" score="22.0" comment="weird bg"/>
+      <testFile fileName="DeepFilterNet2_mid.wav" plays="0" score="31.0" comment="flat"/>
+      <testFile fileName="Cocktail_mid.wav" plays="0" score="28.0" comment="rasp"/>
+    </trial>
+    <trial trialName="LP_11_guitar" trialSeconds="215.0" referencePlays="27">
+      <testFile fileName="LP50.wav" plays="0" score="11.0" comment="muffle"/>
+      <testFile fileName="LP90.wav" plays="0" score="15.0" comment="muffle"/>
+      <testFile fileName="LP105.wav" plays="0" score="18.0" comment="muffle"/>
+      <testFile fileName="LP120.wav" plays="0" score="73.0" comment="top off"/>
+      <testFile fileName="LP35.wav" plays="0" score="15.0" comment="muffle"/>
+      <testFile fileName="LP150.wav" plays="0" score="96.0" comment="lil quieter?"/>
+      <testFile fileName="LP70.wav" plays="0" score="13.0" comment="muffle"/>
+      <testFile fileName="reference.wav" plays="0" score="100.0"/>
+    </trial>
+    <trial trialName="PE_CreatureFromTheBlackjackTable" trialSeconds="1917.0"
+           referencePlays="28">
+      <testFile fileName="PE_2048_MS_NMR10.wav" plays="0" score="65.0" comment="shuffle"/>
+      <testFile fileName="PE_2048_MS_NMR16.wav" plays="0" score="98.0"/>
+      <testFile fileName="LP70.wav" plays="0" score="13.0" comment="muffle"/>
+      <testFile fileName="PE_4096_MS_NMR10.wav" plays="0" score="47.0" comment="whumph"/>
+      <testFile fileName="PE_1024_MS_NMR10.wav" plays="0" score="72.0" comment="louder"/>
+      <testFile fileName="PE_1024_MS_NMR16.wav" plays="0" score="98.0"/>
+      <testFile fileName="LP35.wav" plays="0" score="15.0" comment="muffle"/>
+      <testFile fileName="reference.wav" plays="0" score="100.0"/>
+    </trial>
+    <trial trialName="DE_female_speech_music_3_LD3" trialSeconds="139.0"
+           referencePlays="7">
+      <testFile fileName="OpenUnmix_mid.wav" plays="0" score="15.0" comment="weird"/>
+      <testFile fileName="LP70.wav" plays="0" score="13.0" comment="muffle"/>
+      <testFile fileName="PSM_quantize_mask.wav" plays="0" score="36.0" comment="blurb"/>
+      <testFile fileName="LP35.wav" plays="0" score="6.0" comment="muffle"/>
+      <testFile fileName="reference.wav" plays="0" score="100.0"/>
+      <testFile fileName="DeepFilterNet2_mid.wav" plays="0" score="31.0" comment="wavy"/>
+      <testFile fileName="TFC_TDF_U_Net_mid.wav" plays="0" score="15.0" comment="fizz"/>
+      <testFile fileName="Cocktail_mid.wav" plays="0" score="19.0" comment="fizz blurb"/>
+    </trial>
+    <trial trialName="TM_02_violin" trialSeconds="103.0" referencePlays="8">
+      <testFile fileName="reference.wav" plays="0" score="100.0"/>
+      <testFile fileName="TM5k.wav" plays="0" score="17.0" comment="whine"/>
+      <testFile fileName="TM9k.wav" plays="0" score="26.0" comment="sharp"/>
+      <testFile fileName="LP35.wav" plays="0" score="13.0" comment="muffle"/>
+      <testFile fileName="TM10.5k.wav" plays="0" score="55.0" comment="wavy"/>
+      <testFile fileName="TM3k.wav" plays="0" score="14.0" comment="hisp"/>
+      <testFile fileName="TM7k.wav" plays="0" score="29.0" comment="scrape"/>
+      <testFile fileName="LP70.wav" plays="0" score="15.0" comment="clip"/>
+    </trial>
+    <trial trialName="UN_21_violin" trialSeconds="87.0" referencePlays="5">
+      <testFile fileName="UN5k.wav" plays="0" score="13.0" comment="alien attack"/>
+      <testFile fileName="LP70.wav" plays="0" score="16.0" comment="mono?"/>
+      <testFile fileName="LP35.wav" plays="0" score="15.0" comment="muffle"/>
+      <testFile fileName="UN9k.wav" plays="0" score="19.0" comment="rasp"/>
+      <testFile fileName="UN3k.wav" plays="0" score="17.0" comment="alien attack"/>
+      <testFile fileName="UN7k.wav" plays="0" score="21.0" comment="hisp"/>
+      <testFile fileName="UN10.5k.wav" plays="0" score="22.0" comment="rasp"/>
+      <testFile fileName="reference.wav" plays="0" score="100.0"/>
+    </trial>
+    <trial trialName="PE_39_clapping" trialSeconds="86.0" referencePlays="4">
+      <testFile fileName="LP35.wav" plays="0" score="14.0" comment="muffle"/>
+      <testFile fileName="PE_4096_MS_NMR10.wav" plays="0" score="11.0" comment="?!?!"/>
+      <testFile fileName="PE_1024_MS_NMR10.wav" plays="0" score="14.0" comment="pre echo"/>
+      <testFile fileName="PE_2048_MS_NMR10.wav" plays="0" score="16.0" comment="vvrump"/>
+      <testFile fileName="PE_2048_MS_NMR16.wav" plays="0" score="19.0" comment="vvrrp"/>
+      <testFile fileName="PE_1024_MS_NMR16.wav" plays="0" score="17.0" comment="fwip"/>
+      <testFile fileName="LP70.wav" plays="0" score="14.0" comment="muffle"/>
+      <testFile fileName="reference.wav" plays="0" score="100.0"/>
+    </trial>
+    <trial trialName="LP_AmateurOnPurpose" trialSeconds="340.0" referencePlays="24">
+      <testFile fileName="LP70.wav" plays="0" score="11.0" comment="muffle"/>
+      <testFile fileName="reference.wav" plays="0" score="99.0"/>
+      <testFile fileName="LP120.wav" plays="0" score="100.0"/>
+      <testFile fileName="LP150.wav" plays="0" score="98.0"/>
+      <testFile fileName="LP50.wav" plays="0" score="9.0" comment="muffle"/>
+      <testFile fileName="LP35.wav" plays="0" score="10.0" comment="muffle"/>
+      <testFile fileName="LP90.wav" plays="0" score="11.0" comment="muffle rasp"/>
+      <testFile fileName="LP105.wav" plays="0" score="15.0" comment="muffle"/>
+    </trial>
+    <trial trialName="DE_ElephantsDream_LD0" trialSeconds="168.0" referencePlays="14">
+      <testFile fileName="LP35.wav" plays="0" score="8.0" comment="muffle"/>
+      <testFile fileName="reference.wav" plays="0" score="100.0"/>
+      <testFile fileName="OpenUnmix_mid.wav" plays="0" score="18.0" comment="echo"/>
+      <testFile fileName="PSM_quantize_mask.wav" plays="0" score="49.0" comment="wurb"/>
+      <testFile fileName="LP70.wav" plays="0" score="14.0" comment="mufle"/>
+      <testFile fileName="DeepFilterNet2_mid.wav" plays="0" score="25.0" comment="weird"/>
+      <testFile fileName="Cocktail_mid.wav" plays="0" score="24.0" comment="pre echo"/>
+      <testFile fileName="TFC_TDF_U_Net_mid.wav" plays="0" score="11.0" comment="hiss"/>
+    </trial>
+    <trial trialName="SH_13_glockenspiel" trialSeconds="127.0" referencePlays="8">
+      <testFile fileName="SH30_MS.wav" plays="0" score="14.0" comment="reverb"/>
+      <testFile fileName="reference.wav" plays="0" score="100.0"/>
+      <testFile fileName="SH70_MS.wav" plays="0" score="16.0" comment="wurble"/>
+      <testFile fileName="SH10_MS.wav" plays="0" score="56.0" comment="mild wurble"/>
+      <testFile fileName="LP35.wav" plays="0" score="15.0" comment="muffle"/>
+      <testFile fileName="LP70.wav" plays="0" score="16.0" comment="muffle tin"/>
+      <testFile fileName="SH20_MS.wav" plays="0" score="37.0" comment="wurble"/>
+      <testFile fileName="SH50_MS.wav" plays="0" score="21.0" comment="wurble"/>
+    </trial>
+    <trial trialName="TM_AmateurOnPurpose" trialSeconds="137.0" referencePlays="10">
+      <testFile fileName="TM7k.wav" plays="0" score="51.0" comment="ding ding"/>
+      <testFile fileName="TM10.5k.wav" plays="0" score="74.0" comment="lil rasp"/>
+      <testFile fileName="TM9k.wav" plays="0" score="55.0" comment="rasp"/>
+      <testFile fileName="reference.wav" plays="0" score="100.0"/>
+      <testFile fileName="LP35.wav" plays="0" score="10.0" comment="muffle"/>
+      <testFile fileName="TM5k.wav" plays="0" score="15.0" comment="hisp"/>
+      <testFile fileName="LP70.wav" plays="0" score="13.0" comment="muffle"/>
+      <testFile fileName="TM3k.wav" plays="0" score="17.0" comment="robot"/>
+    </trial>
+    <trial trialName="DE_SitaSings_remix1_LD0" trialSeconds="125.0" referencePlays="11">
+      <testFile fileName="OpenUnmix_mid.wav" plays="0" score="26.0" comment="rain"/>
+      <testFile fileName="reference.wav" plays="0" score="67.0" comment="staticy"/>
+      <testFile fileName="TFC_TDF_U_Net_mid.wav" plays="0" score="27.0" comment="hisp"/>
+      <testFile fileName="LP70.wav" plays="0" score="11.0" comment="muffle"/>
+      <testFile fileName="PSM_quantize_mask.wav" plays="0" score="100.0"/>
+      <testFile fileName="Cocktail_mid.wav" plays="0" score="15.0" comment="vrump"/>
+      <testFile fileName="DeepFilterNet2_mid.wav" plays="0" score="14.0" comment="muffle"/>
+      <testFile fileName="LP35.wav" plays="0" score="7.0" comment="muffle"/>
+    </trial>
+  </trials>
+</MUSHRA>
