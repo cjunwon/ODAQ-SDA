@@ -1,3 +1,10 @@
+# Hiding files from final submission
+Archived/
+Figures/Phase_2/
+Presentations/
+*.tex
+*.ipynb
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
