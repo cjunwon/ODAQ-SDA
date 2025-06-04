@@ -2,8 +2,8 @@ import pandas as pd
 from scipy.cluster.hierarchy import linkage, dendrogram, fcluster
 import pickle as pkl
 
-with open('../Results/dense_rank_distance_matrix_experts_BSU1_BSU2_df.pkl', 'rb') as f:
-    dense_rank_distance_matrix_experts_BSU1_BSU2_df = pkl.load(f)
+with open('../Results/competition_rank_distance_matrix_experts_BSU1_BSU2_df.pkl', 'rb') as f:
+    competition_rank_distance_matrix_experts_BSU1_BSU2_df = pkl.load(f)
 with open('../Results/kmeans_rank_distance_matrix_experts_BSU1_BSU2_df.pkl', 'rb') as f:
     kmeans_rank_distance_matrix_experts_BSU1_BSU2_df = pkl.load(f)
 
@@ -12,18 +12,18 @@ with open('../Results/kmeans_rank_distance_matrix_experts_BSU1_BSU2_df.pkl', 'rb
 # Clusters for 30 trials
 
 # Perform hierarchical clustering on columns (trials/audio samples) for both distance matrices
-linkage_matrix_dense_audio = linkage(dense_rank_distance_matrix_experts_BSU1_BSU2_df.T, method='ward')
+linkage_matrix_competition_audio = linkage(competition_rank_distance_matrix_experts_BSU1_BSU2_df.T, method='ward')
 linkage_matrix_kmeans_audio = linkage(kmeans_rank_distance_matrix_experts_BSU1_BSU2_df.T, method='ward')
 
 # Extract 5 clusters from both hierarchical trees
 num_clusters_trials = 5
-dense_audio_clusters = fcluster(linkage_matrix_dense_audio, num_clusters_trials, criterion='maxclust')
+competition_audio_clusters = fcluster(linkage_matrix_competition_audio, num_clusters_trials, criterion='maxclust')
 kmeans_audio_clusters = fcluster(linkage_matrix_kmeans_audio, num_clusters_trials, criterion='maxclust')
 
 # Create DataFrames mapping audio samples to their clusters
-dense_audio_cluster_df = pd.DataFrame({
-    'Audio Sample': dense_rank_distance_matrix_experts_BSU1_BSU2_df.columns,
-    'Dense Cluster': dense_audio_clusters
+competition_audio_cluster_df = pd.DataFrame({
+    'Audio Sample': competition_rank_distance_matrix_experts_BSU1_BSU2_df.columns,
+    'Competition Cluster': competition_audio_clusters
 })
 
 kmeans_audio_cluster_df = pd.DataFrame({
@@ -32,10 +32,10 @@ kmeans_audio_cluster_df = pd.DataFrame({
 })
 
 # Merge to align the clusters from both methods
-merged_audio_clusters = dense_audio_cluster_df.merge(kmeans_audio_cluster_df, on="Audio Sample")
+merged_audio_clusters = competition_audio_cluster_df.merge(kmeans_audio_cluster_df, on="Audio Sample")
 
 # Build a contingency table comparing the two clustering results
-contingency_table_trials = pd.crosstab(merged_audio_clusters['Dense Cluster'], merged_audio_clusters['KMeans Cluster'])
+contingency_table_trials = pd.crosstab(merged_audio_clusters['Competition Cluster'], merged_audio_clusters['KMeans Cluster'])
 
 # Display the contingency table
 print(contingency_table_trials)
@@ -46,20 +46,20 @@ contingency_table_trials_specified = pd.DataFrame(
     columns=[1, 2, 3, 4, 5], 
     index=[1, 2, 3, 4, 5]
 )
-contingency_table_trials_specified.index.name = 'Dense Cluster'
+contingency_table_trials_specified.index.name = 'Competition Cluster'
 contingency_table_trials_specified.columns.name = 'KMeans Cluster'
 
 # Define a function to retrieve audio sample lists
-def get_audio_samples(dense_label, kmeans_label):
+def get_audio_samples(competition_label, kmeans_label):
     return merged_audio_clusters[
-        (merged_audio_clusters['Dense Cluster'] == dense_label) & 
+        (merged_audio_clusters['Competition Cluster'] == competition_label) & 
         (merged_audio_clusters['KMeans Cluster'] == kmeans_label)
     ]['Audio Sample'].tolist()
 
 # Populate the contingency table with actual audio sample lists
-for dense in [1, 2, 3, 4, 5]:
+for competition in [1, 2, 3, 4, 5]:
     for kmeans in [1, 2, 3, 4, 5]:
-        contingency_table_trials_specified.at[dense, kmeans] = get_audio_samples(dense, kmeans)
+        contingency_table_trials_specified.at[competition, kmeans] = get_audio_samples(competition, kmeans)
 
 print(contingency_table_trials_specified)
 
@@ -69,18 +69,18 @@ contingency_table_trials_specified.to_csv('../Results/contingency_table_trials_s
 # Clusters for 42 Subjects
 
 # Perform hierarchical clustering on rows (subjects) for both distance matrices
-linkage_matrix_dense_subjects = linkage(dense_rank_distance_matrix_experts_BSU1_BSU2_df, method='ward')
+linkage_matrix_competition_subjects = linkage(competition_rank_distance_matrix_experts_BSU1_BSU2_df, method='ward')
 linkage_matrix_kmeans_subjects = linkage(kmeans_rank_distance_matrix_experts_BSU1_BSU2_df, method='ward')
 
 # Extract 3 clusters from both hierarchical trees
 num_clusters_subjects = 3
-dense_subject_clusters = fcluster(linkage_matrix_dense_subjects, num_clusters_subjects, criterion='maxclust')
+competition_subject_clusters = fcluster(linkage_matrix_competition_subjects, num_clusters_subjects, criterion='maxclust')
 kmeans_subject_clusters = fcluster(linkage_matrix_kmeans_subjects, num_clusters_subjects, criterion='maxclust')
 
 # Create DataFrames mapping subjects to their clusters
-dense_subject_cluster_df = pd.DataFrame({
-    'Subject': dense_rank_distance_matrix_experts_BSU1_BSU2_df.index,
-    'Dense Cluster': dense_subject_clusters
+competition_subject_cluster_df = pd.DataFrame({
+    'Subject': competition_rank_distance_matrix_experts_BSU1_BSU2_df.index,
+    'Competition Cluster': competition_subject_clusters
 })
 
 kmeans_subject_cluster_df = pd.DataFrame({
@@ -89,10 +89,10 @@ kmeans_subject_cluster_df = pd.DataFrame({
 })
 
 # Merge to align clusters from both methods
-merged_subject_clusters = dense_subject_cluster_df.merge(kmeans_subject_cluster_df, on="Subject")
+merged_subject_clusters = competition_subject_cluster_df.merge(kmeans_subject_cluster_df, on="Subject")
 
 # Build a contingency table for subjects
-contingency_table_subjects = pd.crosstab(merged_subject_clusters['Dense Cluster'], merged_subject_clusters['KMeans Cluster'])
+contingency_table_subjects = pd.crosstab(merged_subject_clusters['Competition Cluster'], merged_subject_clusters['KMeans Cluster'])
 
 # Display the contingency table
 print(contingency_table_subjects)
@@ -102,19 +102,19 @@ contingency_table_subjects_specified = pd.DataFrame(
     columns=[1, 2, 3], 
     index=[1, 2, 3]
 )
-contingency_table_subjects_specified.index.name = 'Dense Cluster'
+contingency_table_subjects_specified.index.name = 'Competition Cluster'
 contingency_table_subjects_specified.columns.name = 'KMeans Cluster'
 
-def get_subjects(dense_label, kmeans_label):
+def get_subjects(competition_label, kmeans_label):
     return merged_subject_clusters[
-        (merged_subject_clusters['Dense Cluster'] == dense_label) & 
+        (merged_subject_clusters['Competition Cluster'] == competition_label) & 
         (merged_subject_clusters['KMeans Cluster'] == kmeans_label)
     ]['Subject'].tolist()
 1
 # Populate the contingency table with actual subject lists
-for dense in [1, 2, 3]:
+for competition in [1, 2, 3]:
     for kmeans in [1, 2, 3]:
-        contingency_table_subjects_specified.at[dense, kmeans] = get_subjects(dense, kmeans)
+        contingency_table_subjects_specified.at[competition, kmeans] = get_subjects(competition, kmeans)
 
 print(contingency_table_subjects_specified)
 

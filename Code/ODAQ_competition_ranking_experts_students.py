@@ -348,13 +348,13 @@ plt.show()
 
 # export linkage_matrix_experts_BSU1_BSU2 to a pickle file
 
-with open('../Results/dense_rank_linkage_matrix_experts_BSU1_BSU2.pkl', 'wb') as f:
+with open('../Results/competition_rank_linkage_matrix_experts_BSU1_BSU2.pkl', 'wb') as f:
     pkl.dump(linkage_matrix_experts_BSU1_BSU2, f)
     
 
 # export distance_matrix_experts_BSU1_BSU2_df to a pickle file
 
-with open('../Results/dense_rank_distance_matrix_experts_BSU1_BSU2_df.pkl', 'wb') as f:
+with open('../Results/competition_rank_distance_matrix_experts_BSU1_BSU2_df.pkl', 'wb') as f:
     pkl.dump(distance_matrix_experts_BSU1_BSU2_df, f)
 
 # Perform hierarchical clustering on the columns (audio samples)
@@ -603,13 +603,13 @@ import pickle as pkl
 
 # export linkage_matrix_experts_BSU1_BSU2 to a pickle file
 
-with open('../Results/dense_rank_linkage_matrix_experts_BSU1_BSU2.pkl', 'wb') as f:
+with open('../Results/competition_rank_linkage_matrix_experts_BSU1_BSU2.pkl', 'wb') as f:
     pkl.dump(linkage_matrix_experts_BSU1_BSU2, f)
     
 
 # export distance_matrix_experts_BSU1_BSU2_df to a pickle file
 
-with open('../Results/dense_rank_distance_matrix_experts_BSU1_BSU2_df.pkl', 'wb') as f:
+with open('../Results/competition_rank_distance_matrix_experts_BSU1_BSU2_df.pkl', 'wb') as f:
     pkl.dump(distance_matrix_experts_BSU1_BSU2_df, f)
 # Perform hierarchical clustering on the columns (audio samples)
 linkage_matrix_audio = linkage(distance_matrix_experts_BSU1_BSU2_df.T, method='ward')
@@ -923,3 +923,173 @@ reversed_BSU2_4_rankings_hard_hardest = BSU2_4_rankings[:, ::-1][hard_hardest_tr
 reversed_expert16_rankings_hard_hardest = expert16_rankings[:, ::-1][hard_hardest_trial_indices]
 reversed_expert23_rankings_hard_hardest = expert23_rankings[:, ::-1][hard_hardest_trial_indices]
 
+# Spaghetti Plots in Paper:
+
+easy_easiest_trials_competition_kmeans = ['TM_01b_trumpet', 'DE_ElephantsDream_LD0', 'LP_23_jazz', 'LP_AmateurOnPurpose', 'DE_female_speech_music_2_LD9', 'UN_AmateurOnPurpose', 'UN_CreatureFromTheBlackjackTable']
+hard_hardest_trials_competition_kmeans = ['SH_AmateurOnPurpose', 'SH_CreatureFromTheBlackjackTable', 'DE_SitaSings_remix2_LD6', 'PE_27_castanets']
+reversed_perfect_ranking = np.array([8, 7, 6, 5, 4, 3, 2, 1])
+
+# Create DataFrame for perfect ranking
+perfect_df = pd.DataFrame({
+    'Sample': ['Perfect Ranking'] * len(conditions),
+    'Condition': conditions,
+    'Ranking': reversed_perfect_ranking
+})
+# Spaghetti plot for BSU2_1 rankings
+
+reversed_BSU1_5_rankings = BSU1_5_rankings[:, ::-1]
+
+# Reshape rankings data for Plotly
+BSU1_5_rankings_df = pd.DataFrame(reversed_BSU1_5_rankings, columns=conditions)
+
+BSU1_5_rankings_df['Sample'] = items
+
+# Melt dataframe for better visualization
+BSU1_5_rankings_df_melted = BSU1_5_rankings_df.melt(id_vars=['Sample'], var_name='Condition', value_name='Ranking')
+
+BSU1_5_rankings_df_melted = pd.concat([perfect_df, BSU1_5_rankings_df_melted])
+
+# Define custom colors
+color_map = {
+    "Perfect Ranking": "black"
+}
+
+# Assign green to easy items
+for item in easy_easiest_trials_competition_kmeans:
+    color_map[item] = "green"
+
+# Assign red to hard items
+for item in hard_hardest_trials_competition_kmeans:
+    color_map[item] = "red"
+
+# Assign light grey to all other samples
+all_samples = BSU1_5_rankings_df_melted['Sample'].unique()
+for item in all_samples:
+    if item not in color_map:
+        color_map[item] = "lightgrey"
+
+# Create the line plot with custom colors
+fig = px.line(BSU1_5_rankings_df_melted, x='Condition', y='Ranking', color='Sample', markers=True,
+              title="Cohort 1 Student 5 (Competition) Rankings per Condition with Perfect Ranking Reference",
+              labels={"Ranking": "Ranking", "Condition": "Conditions (Low to High Quality)"},
+              color_discrete_map=color_map,
+              template="plotly_white")
+
+# Adjust figure dimensions
+fig.update_layout(width=1000, height=800)
+
+fig.update_layout(
+    title=dict(
+        text="Cohort 1 Student 5 (Competition) Rankings per Condition with Perfect Ranking Reference",
+        font=dict(size=20)  # Increase this value for a larger title
+    )
+)
+
+
+# Invert y-axis (lower ranks at top)
+fig.update_yaxes(autorange="reversed")
+
+# Modify the "Perfect Ranking" line to be more visible
+fig.update_traces(
+    selector=dict(name="Perfect Ranking"),
+    line=dict(width=10, color='black'),
+    marker=dict(size=14, color='black')
+)
+
+# Update all traces except "Perfect Ranking" to be slightly transparent
+fig.for_each_trace(
+    lambda trace: trace.update(line=dict(color='rgba(211,211,211,0.4)')) 
+    if trace.name != "Perfect Ranking" and color_map.get(trace.name) == "lightgrey" else None
+)
+
+# Optional: update easy and hard items to semi-transparent green and red
+fig.for_each_trace(
+    lambda trace: trace.update(line=dict(color='rgba(0,128,0,0.5)'))  # green with opacity
+    if color_map.get(trace.name) == "green" else None
+)
+fig.for_each_trace(
+    lambda trace: trace.update(line=dict(color='rgba(255,0,0,0.5)'))  # red with opacity
+    if color_map.get(trace.name) == "red" else None
+)
+
+fig.show()
+# Spaghetti plot for Expert 16 rankings
+
+reversed_expert16_rankings_hard_hardest = expert16_rankings[:, ::-1]
+
+# Reshape rankings data for Plotly
+expert16_rankings_df = pd.DataFrame(reversed_expert16_rankings_hard_hardest, columns=conditions)
+expert16_rankings_df['Sample'] = items
+
+# Melt dataframe for better visualization
+expert16_rankings_df_melted = expert16_rankings_df.melt(id_vars=['Sample'], var_name='Condition', value_name='Ranking')
+
+expert16_rankings_df_melted = pd.concat([perfect_df, expert16_rankings_df_melted])
+
+
+# Define custom colors
+color_map = {
+    "Perfect Ranking": "black"
+}
+
+# Assign green to easy items
+for item in easy_easiest_trials_competition_kmeans:
+    color_map[item] = "green"
+
+# Assign red to hard items
+for item in hard_hardest_trials_competition_kmeans:
+    color_map[item] = "red"
+
+# Assign light grey to all other samples
+all_samples = expert16_rankings_df_melted['Sample'].unique()
+for item in all_samples:
+    if item not in color_map:
+        color_map[item] = "lightgrey"
+
+# Create plot
+fig = px.line(expert16_rankings_df_melted, x='Condition', y='Ranking', color='Sample', markers=True,
+              title="Expert 16 (Competition) Rankings per Condition with Perfect Ranking Reference",
+              labels={"Ranking": "Ranking", "Condition": "Conditions (Low to High Quality)"},
+              color_discrete_map=color_map,
+              template="plotly_white")
+
+# Adjust figure dimensions
+fig.update_layout(width=1000, height=800)
+
+# Invert y-axis (lower ranks at top)
+fig.update_yaxes(autorange="reversed")
+
+# Modify the "Perfect Ranking" line to be more visible
+fig.update_traces(
+    selector=dict(name="Perfect Ranking"),
+    line=dict(width=10, color='black'),
+    marker=dict(size=14, color='black')
+)
+
+fig.update_layout(
+    title=dict(
+        text="Expert 16 (Competition) Rankings per Condition with Perfect Ranking Reference",
+        font=dict(size=20)  # Increase this value for a larger title
+    )
+)
+
+
+# Update all traces except "Perfect Ranking" to be slightly transparent
+fig.for_each_trace(
+    lambda trace: trace.update(line=dict(color='rgba(211,211,211,0.4)')) 
+    if trace.name != "Perfect Ranking" and color_map.get(trace.name) == "lightgrey" else None
+)
+
+# Optional: update easy and hard items to semi-transparent green and red
+fig.for_each_trace(
+    lambda trace: trace.update(line=dict(color='rgba(0,128,0,0.5)'))  # green with opacity
+    if color_map.get(trace.name) == "green" else None
+)
+fig.for_each_trace(
+    lambda trace: trace.update(line=dict(color='rgba(255,0,0,0.5)'))  # red with opacity
+    if color_map.get(trace.name) == "red" else None
+)
+
+
+# Show figure
+fig.show()

@@ -1,4 +1,4 @@
-Dense Cluster,1,2,3,4,5
+Competition Cluster,1,2,3,4,5
 1,['PE_CreatureFromTheBlackjackTable'],[],"['TM_AmateurOnPurpose', 'TM_CreatureFromTheBlackjackTable']",[],"['TM_01b_trumpet', 'DE_ElephantsDream_LD0']"
 2,['PE_AmateurOnPurpose'],[],"['LP_11_guitar', 'LP_CreatureFromTheBlackjackTable', 'DE_Meridian_remix2_LD6']","['LP_23_jazz', 'LP_AmateurOnPurpose', 'DE_female_speech_music_2_LD9']","['UN_AmateurOnPurpose', 'UN_CreatureFromTheBlackjackTable']"
 3,[],['PE_27_castanets'],[],['SH_13_glockenspiel'],['PE_39_clapping']
