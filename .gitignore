@@ -4,6 +4,8 @@ Figures/Phase_2/
 Presentations/
 *.tex
 *.ipynb
+*.gitattributes
+*.DS_Store
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

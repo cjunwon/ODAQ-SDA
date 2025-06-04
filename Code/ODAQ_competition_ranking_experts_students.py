@@ -6,9 +6,9 @@ import plotly.express as px
 from scipy.cluster.hierarchy import linkage, dendrogram, fcluster
 import pickle as pkl
 
-ODAQ_results = pd.read_csv('.././ODAQ/ODAQ_listening_test/ODAQ_results.csv')
-ODAQ_results_BSU1 = pd.read_csv('.././ODAQ_v1_BSU/Cohort_B1_results.csv')
-ODAQ_results_BSU2 = pd.read_csv('.././ODAQ_v1_BSU/Cohort_B2_results.csv')
+ODAQ_results = pd.read_csv('../Data/./ODAQ/ODAQ_listening_test/ODAQ_results.csv')
+ODAQ_results_BSU1 = pd.read_csv('../Data/./ODAQ_v1_BSU/Cohort_B1_results.csv')
+ODAQ_results_BSU2 = pd.read_csv('../Data/./ODAQ_v1_BSU/Cohort_B2_results.csv')
 
 methods = ODAQ_results['method'].unique()
 conditions = ODAQ_results['condition'].unique()
